@@ -1,2 +1,6 @@
-console.log('Hello from the console world!');
+import * as bootstrap from 'bootstrap';
+
+console.log("Hello Again");
+
+
     
