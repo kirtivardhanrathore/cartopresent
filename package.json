@@ -1,7 +1,7 @@
 {
   "name": "CartoPresent",
   "source": [
-    "src/index.html"
+    "src/index.ejs"
   ],
   "targets": {
     "default": {
@@ -16,7 +16,8 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.3.2"
+    "parcel": "^2.3.2",
+    "parcel-transformer-ejs": "^0.2.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.4",
